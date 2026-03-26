@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Optasia Foundation – Vision of Tomorrow</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════ NAVBAR ═══════════════════════════════════════ -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+   <img src="Optasia logo.png" alt="Optasia Foundation Logo" height="100">
+    <div class="nav-logo-text">Optasia <span>Foundation</span></div>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#impact">Our Impact</a></li>
+    <li><a href="#involved">Get Involved</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="https://rzp.io/l/N0VfzxWv" class="nav-cta" target="_blank">Donate Now</a></li>
+  </ul>
+
+  <div class="hamburger" id="hamburger" onclick="openMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════ MOBILE MENU ═══════════════════════════════════════ -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-menu" onclick="closeMenu()">✕</button>
+  <a href="#about"    onclick="closeMenu()">About Us</a>
+  <a href="#impact"   onclick="closeMenu()">Our Impact</a>
+  <a href="#involved" onclick="closeMenu()">Get Involved</a>
+  <a href="#team"     onclick="closeMenu()">Team</a>
+  <a href="#blog"     onclick="closeMenu()">Blog</a>
+  <a href="#contact"  onclick="closeMenu()">Contact</a>
+  <a href="https://rzp.io/l/N0VfzxWv" target="_blank" class="mobile-donate">Donate Now</a>
+</div>
+
+<!-- ═══════════════════════════════════════ HERO ═══════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-dots"></div>
+
+  <!-- Left Content -->
+  <div class="hero-left">
+    <div class="hero-tag">Transforming Rural India</div>
+
+    <h1 class="hero-heading">
+      Empowering<br>
+      <em>Young Minds,</em><br>
+      <span class="line-green">Building Tomorrow</span>
+    </h1>
+
+    <p class="hero-sub">
+      At Optasia Foundation, we bridge the education gap in rural India — giving every child the tools, opportunity, and belief to dream bigger and reach their fullest potential.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="https://rzp.io/l/N0VfzxWv" class="btn-primary" target="_blank">
+        Donate Now
+      </a>
+      <a href="#about" class="btn-secondary">
+        Learn More
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">1k<span>+</span></div>
+        <div class="stat-label">Volunteers</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">5000<span>+</span></div>
+        <div class="stat-label">Children Empowered</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">100<span>+</span></div>
+        <div class="stat-label">Schools Partnered</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right Image -->
+  <div class="hero-right">
+    <div class="hero-image-stack">
+      <div class="hero-img-main">
+        <img
+          src="https://optasia.in/wp-content/uploads/2024/09/WhatsApp-Image-2024-07-22-at-16.19.32-1024x768.jpeg"
+          alt="Optasia Foundation volunteers with children"
+          onerror="this.parentNode.innerHTML='<div class=\'hero-img-placeholder\'><span style=\'font-size:80px\'>🌱</span><span>Optasia Foundation</span></div>'"
+        >
+      </div>
+
+      <!-- Floating Cards -->
+      <div class="hero-float-card">
+        <div class="float-icon">🎓</div>
+        <div>
+          <div class="float-text-label">Children Empowered</div>
+          <div class="float-text-val">5,000+</div>
+        </div>
+      </div>
+
+      <div class="hero-float-card2">
+        <div class="float2-text">Years of Impact</div>
+        <div class="float2-val">4+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ LOGO STRIP ═══════════════════════════════════════ -->
+<div class="logo-strip">
+  <span class="strip-label">Our Partners</span>
+  <div class="strip-logos">
+    <span>Education Ministry</span><span>•</span>
+    <span>Rural Development</span><span>•</span>
+    <span>UNICEF Initiative</span><span>•</span>
+    <span>NGO Alliance India</span><span>•</span>
+    <span>Bareilly District</span><span>•</span>
+    <span>Community Trust</span><span>•</span>
+    <!-- Duplicate for seamless loop -->
+    <span>Education Ministry</span><span>•</span>
+    <span>Rural Development</span><span>•</span>
+    <span>UNICEF Initiative</span><span>•</span>
+    <span>NGO Alliance India</span><span>•</span>
+    <span>Bareilly District</span><span>•</span>
+    <span>Community Trust</span><span>•</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ IMPACT ═══════════════════════════════════════ -->
+<section id="impact">
+  <div class="impact-inner">
+
+    <div class="impact-text">
+      <div class="section-tag light">Our Impact</div>
+      <h2 class="impact-heading">
+        Numbers that <em>tell our story</em>
+      </h2>
+      <p class="impact-desc">
+        Every number represents a life touched, a dream sparked, a future transformed. At Optasia Foundation, impact isn't measured in metrics alone — it's measured in smiles, in futures, in hope.
+      </p>
+      <a href="#about" class="impact-link">
+        Read our full story
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="impact-grid">
+      <div class="impact-card reveal color-saffron">
+        <div class="ic-icon"></div>
+        <div class="ic-num">5,000+</div>
+        <div class="ic-label">Children Empowered</div>
+      </div>
+      <div class="impact-card reveal reveal-delay-1 color-green">
+        <div class="ic-icon"></div>
+        <div class="ic-num">100+</div>
+        <div class="ic-label">Schools Partnered</div>
+      </div>
+      <div class="impact-card reveal reveal-delay-2 color-gold">
+        <div class="ic-icon"></div>
+        <div class="ic-num">1k+</div>
+        <div class="ic-label">Passionate Volunteers</div>
+      </div>
+      <div class="impact-card reveal reveal-delay-3 color-purple">
+        <div class="ic-icon"></div>
+        <div class="ic-num">20+</div>
+        <div class="ic-label">Active Projects</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ GET INVOLVED ═══════════════════════════════════════ -->
+<section id="involved">
+  <div class="involved-header">
+    <div class="section-tag">Get Involved</div>
+    <h2 class="section-heading">Let's make a difference, together</h2>
+    <p class="section-sub">Choose your path to create lasting change in the lives of children across rural India.</p>
+  </div>
+
+  <div class="involved-grid">
+    <div class="involve-card card-saffron reveal">
+      <span class="ic-emoji"></span>
+      <div class="ic-title">Become a Volunteer</div>
+      <p class="ic-text">Join hands with us to empower the future generation. By volunteering, you help children receive quality education and life-changing opportunities.</p>
+      <a href="#contact" class="btn-outline btn-outline-saffron">Join Us Now</a>
+    </div>
+    <div class="involve-card card-green reveal reveal-delay-1">
+      <span class="ic-emoji"></span>
+      <div class="ic-title">Donate to Support</div>
+      <p class="ic-text">Your contribution can change lives. Help us provide resources, build classrooms, and give every child a chance to succeed in their education journey.</p>
+      <a href="https://rzp.io/l/N0VfzxWv" class="btn-outline btn-outline-green" target="_blank">Donate Now</a>
+    </div>
+    <div class="involve-card card-gold reveal reveal-delay-2">
+      <span class="ic-emoji"></span>
+      <div class="ic-title">Become a Partner</div>
+      <p class="ic-text">Partner with us to expand our reach and amplify our impact. Together, we can drive social change and make a lasting difference in communities.</p>
+      <a href="#contact" class="btn-outline btn-outline-gold">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ ABOUT ═══════════════════════════════════════ -->
+<section id="about">
+  <div class="about-inner">
+
+    <!-- Image Side -->
+    <div class="about-image-wrap reveal">
+      <div class="about-img">
+        <img
+          src="https://optasia.in/wp-content/uploads/2024/09/WhatsApp-Image-2024-07-22-at-16.19.32-1024x768.jpeg"
+          alt="Optasia Foundation"
+          onerror="this.style.display='none'; this.parentNode.innerHTML='<div style=\'display:flex;align-items:center;justify-content:center;height:100%;font-size:100px;\'>🌱</div>'"
+        >
+      </div>
+      <div class="about-badge">
+        <div class="badge-num">4+</div>
+        <div class="badge-text">Years of<br>Experience</div>
+      </div>
+    </div>
+
+    <!-- Content Side -->
+    <div class="about-content reveal reveal-delay-1">
+      <div class="section-tag green-tag">About Us</div>
+      <h2 class="section-heading">Our Work Promise: Upholding the Trust You Place in Us</h2>
+      <p class="section-sub">
+        At Optasia Foundation, we are dedicated to ensuring that every child has access to quality education, opportunities to grow, and a platform to realize their potential. With a dedicated team of volunteers, partners, and supporters, we're transforming lives, one child at a time.
+      </p>
+      <div class="about-promises">
+        <div class="promise-item">
+          <div class="promise-check">✓</div>
+          <div class="promise-text"><strong>1k+</strong> Passionate Volunteers dedicated to the cause</div>
+        </div>
+        <div class="promise-item">
+          <div class="promise-check">✓</div>
+          <div class="promise-text"><strong>5000+</strong> Children Empowered across rural India</div>
+        </div>
+        <div class="promise-item">
+          <div class="promise-check">✓</div>
+          <div class="promise-text"><strong>100+</strong> Schools Partnered for quality education</div>
+        </div>
+        <div class="promise-item">
+          <div class="promise-check">✓</div>
+          <div class="promise-text"><strong>20+</strong> Active Community Projects running</div>
+        </div>
+      </div>
+      <a href="https://rzp.io/l/N0VfzxWv" class="btn-primary about-cta" target="_blank">
+        Support Our Mission
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ TEAM ═══════════════════════════════════════ -->
+<section id="team">
+  <div class="team-header">
+    <div class="section-tag">Our Team</div>
+    <h2 class="section-heading">The Optimistic People Behind Optasia</h2>
+  </div>
+
+  <div class="team-grid">
+
+    <div class="team-card reveal">
+      <div class="team-img-wrap">
+        <img
+          src="https://optasia.in/wp-content/uploads/2024/09/Harish-ji-Image-1.jpg"
+          alt="Harish Chandra Pathak"
+          onerror="this.parentNode.innerHTML='<div class=\'team-img-placeholder\'>👨‍💼</div>'"
+        >
+        <div class="team-overlay"></div>
+      </div>
+      <div class="team-role">Chairman</div>
+      <div class="team-name">Harish Chandra Pathak</div>
+      <p class="team-desc">Harish ji's vision and dedication drive Optasia's mission to transform education and uplift communities across India.</p>
+    </div>
+
+    <div class="team-card reveal reveal-delay-1">
+      <div class="team-img-wrap">
+        <img
+          src="https://optasia.in/wp-content/uploads/2024/09/Adis-pic.jpg"
+          alt="Aditya Nath Mishra"
+          onerror="this.parentNode.innerHTML='<div class=\'team-img-placeholder\'>👨‍🎓</div>'"
+        >
+        <div class="team-overlay"></div>
+      </div>
+      <div class="team-role">Founder</div>
+      <div class="team-name">Aditya Nath Mishra</div>
+      <p class="team-desc">Aditya's leadership empowers rural education, inspiring change and innovation through Optasia's programs.</p>
+    </div>
+
+    <div class="team-card reveal reveal-delay-2">
+      <div class="team-img-wrap">
+        <img
+          src="Abhi Photo.jpeg"
+          alt="Abhishek Kumar"
+          onerror="this.parentNode.innerHTML='<div class=\'team-img-placeholder\'>👨‍💻</div>'"
+        >
+        <div class="team-overlay"></div>
+      </div>
+      <div class="team-role">Program Director</div>
+      <div class="team-name">Abhishek Kumar</div>
+      <p class="team-desc">Abhishek's strategic leadership drives impactful projects that shape the future of education for rural children.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ BLOG ═══════════════════════════════════════ -->
+<section id="blog">
+  <div class="blog-header">
+    <div>
+      <div class="section-tag light">Insights & Updates</div>
+      <h2 class="section-heading white-heading">Our Recent Stories</h2>
+    </div>
+    <a href="#" class="blog-view-all">
+      View All Posts
+      <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+
+  <div class="blog-grid">
+    <a href="https://optasia.in/?p=76" class="blog-card" target="_blank">
+      <div class="blog-thumb">
+        <img src="TECH BETIYA.png" alt="Tech Betiyan" onerror="this.parentNode.innerHTML='👩‍💻'">
+      </div>
+      <div class="blog-body">
+        <div class="blog-cat">Things to Understand</div>
+        <div class="blog-title">Tech Betiyan: Closing the Gender Gap in STEM, One Girl at a Time</div>
+        <p class="blog-excerpt">Empowering girls in science, technology, engineering and mathematics — because every girl deserves to dream, build, and lead.</p>
+      </div>
+    </a>
+
+    <a href="https://optasia.in/?p=74" class="blog-card" target="_blank">
+      <div class="blog-thumb blog-thumb-emoji">
+        <img src="Girl Child Edu.png" alt="Tech Betiyan" onerror="this.parentNode.innerHTML='👩‍💻'">
+      </div>
+      <div class="blog-body">
+        <div class="blog-cat">Education</div>
+        <div class="blog-title">When a Girl Goes to School, the Whole World Changes</div>
+        <p class="blog-excerpt">A girl's education doesn't just transform her life — it transforms her family, her community, and the generations that follow.</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ CTA BANNER ═══════════════════════════════════════ -->
+<section id="cta">
+  <h2 class="cta-heading">Take the First Step.<br>Be a Part of the Change.</h2>
+  <p class="cta-sub">
+    We've reached 50+ schools, empowered 5,000+ students, and built a path toward a brighter, more educated future. Join our mission today.
+  </p>
+  <a href="https://rzp.io/l/N0VfzxWv" class="btn-white" target="_blank">
+    Donate Now — Every Rupee Counts
+  </a>
+</section>
+
+<!-- ═══════════════════════════════════════ CONTACT ═══════════════════════════════════════ -->
+<section id="contact">
+  <div class="contact-inner">
+
+    <!-- Info -->
+    <div class="contact-info">
+      <div class="section-tag">Contact Us</div>
+      <h2 class="section-heading">Let's Start a Conversation</h2>
+      <p class="section-sub">Whether you want to volunteer, donate, or simply learn more — we'd love to hear from you.</p>
+
+      <div class="contact-cards">
+        <a href="tel:+919473513973" class="contact-card">
+          <div class="cc-icon cc-saffron">📞</div>
+          <div>
+            <div class="cc-label">Phone</div>
+            <div class="cc-value">+(91) 9473513973, 9548996597</div>
+          </div>
+        </a>
+        <a href="mailto:contact@optasia.in" class="contact-card">
+          <div class="cc-icon cc-green">✉️</div>
+          <div>
+            <div class="cc-label">General Enquiries</div>
+            <div class="cc-value">contact@optasia.in</div>
+          </div>
+        </a>
+        <a href="mailto:hr@optasia.in" class="contact-card">
+          <div class="cc-icon cc-gold">🤝</div>
+          <div>
+            <div class="cc-label">Volunteer / HR</div>
+            <div class="cc-value">hr@optasia.in</div>
+          </div>
+        </a>
+        <div class="contact-card no-hover">
+          <div class="cc-icon cc-purple">📍</div>
+          <div>
+            <div class="cc-label">Location</div>
+            <div class="cc-value">Bareilly, Uttar Pradesh, India</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div class="contact-form-wrap">
+      <div class="form-heading">Send Us a Message</div>
+      <form id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="Full name" required>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="you@email.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" placeholder="How can we help you?">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Tell us more about your interest or query..."></textarea>
+        </div>
+        <button type="submit" class="form-submit" id="submitBtn">Send Message →</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <img src="OP Blue Logo.png" alt="Optasia Foundation Logo" height="100">
+        <div class="footer-logo-name">Optasia Foundation</div>
+      </div>
+      <p class="footer-tagline">
+        Committed to transforming education in rural India. Bridging the gap between urban and rural education, one child at a time.
+      </p>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#impact">Our Impact</a></li>
+        <li><a href="#involved">Get Involved</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Get Involved</div>
+      <ul class="footer-links">
+        <li><a href="#contact">Volunteer With Us</a></li>
+        <li><a href="https://rzp.io/l/N0VfzxWv" target="_blank">Donate Now</a></li>
+        <li><a href="#contact">Become a Partner</a></li>
+        <li><a href="#contact">Corporate CSR</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Legal</div>
+      <ul class="footer-links">
+        <li><a href="https://optasia.in/?page_id=449" target="_blank">Privacy Policy</a></li>
+        <li><a href="https://optasia.in/?page_id=447" target="_blank">Terms & Conditions</a></li>
+        <li><a href="https://optasia.in/?page_id=451" target="_blank">Refund Policy</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2026 Optasia Foundation. Built with for rural India.</p>
+    <div class="footer-legal">
+      <a href="https://optasia.in/?page_id=449" target="_blank">Privacy</a>
+      <a href="https://optasia.in/?page_id=447" target="_blank">Terms</a>
+      <a href="https://optasia.in/?page_id=451" target="_blank">Refund</a>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button id="btt" aria-label="Back to top">↑</button>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
